@@ -222,9 +222,28 @@ a {
 .onlineControl__video {
   width: 817px;
   height: 434px;
-  background-image:
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)) ,
   url(../img/webcamera_background.jpg);
   background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.video__image-circle {
+  width: 85px;
+  height: 85px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  background: #E3B873;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.video__image_play {
+  width: 28px;
+  height: 28px;
+  transform: translate(4px, 2px);
 }
 .project__leftSide {
   width: 30%;
@@ -278,6 +297,7 @@ a {
 
 .project__rightSide {
   flex-grow: 1;
+  overflow: hidden;
 }
 .navbar {
   display: flex;
@@ -303,11 +323,11 @@ a {
 .slides {
   display: flex;
   justify-content: space-between;
-  overflow: hidden;
 }
 .slides__item {
   width: 679px;
   margin-right: 30px;
+  flex-shrink: 0;
 }
 .slides__item:last-child {
   margin-right: 0;
