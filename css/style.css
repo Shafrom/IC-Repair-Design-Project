@@ -454,7 +454,7 @@ a {
   background-repeat: space;
 }
 .wrapper {
-  max-width: 1238px;
+  max-width: 1440px;
 }
 .repairTypes__title {
   margin-bottom: 15px;
@@ -747,13 +747,14 @@ a {
 }
 .designProject {
   padding-top: 150px;
-  padding-bottom: 124px;
+  /* padding-bottom: 50px; */
   display: flex;
   flex-direction: column;
   align-items: center;
   background-image: url(../img/subtle-dots.png);
   background-repeat: space;
 }
+
 .designProject__description-text {
   /* max-width: 750px; */
   font-family: FuturaBookC;
@@ -794,4 +795,115 @@ a {
 }
 .designProject_item:hover {
   transform: scale(1.03);
+}
+
+/* _______________________________________________________________ */
+
+.howWorking {
+  padding-top: 220px;
+  background: #131313;
+}
+.howWorking__wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.howWorking__main {
+  display: flex;
+  justify-content: space-between;
+}
+.howWorking__leftSide {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-shrink: 0;
+  margin-right: 137px;
+}
+.howWorking__leftSide-content {
+  max-width: 337px;
+}
+.howWorking__rightSide {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  padding-top: 100px;
+}
+.howWorking__repairSteps {
+  display: flex;
+  /* justify-content: space-between; */
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* padding-right: -200px; */
+}
+.repairSteps__item {
+  width: calc(100% / 3);
+  margin-bottom: 36px;
+}
+.howWorking__text.text_top {
+  font-family: FuturaDemiC;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-bottom: 18px;
+}
+.howWorking__title.title_top {
+  font-family: Yeseva One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 27px;
+  text-transform: uppercase;
+  color: #E3B873;
+  margin-bottom: 92px;
+}
+.howWorking__text.text_count {
+  font-family: Yeseva One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-bottom: 22px;
+}
+.howWorking__title.tittle_main {
+  font-family: Yeseva One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #E3B873;
+  margin-bottom: 16px;
+}
+.howWorking__text {
+  font-family: FuturaBookC;
+  font-size: 15px;
+  color: #FFFFFF;
+}
+.repairSteps__item-content {
+  width: 85px;
+}
+.repairSteps__item-count {
+  display: inline-block;
+  font-family: Yeseva One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #5A5A5A;
+  transition: 1s;
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+}
+.repairSteps__item-content:hover .repairSteps__item-count,
+.repairSteps__item-content:hover .repairSteps__item-description {
+  color: #FFFFFF;
+}
+.repairSteps__item-content:hover .repairSteps__item-count {
+  border-bottom: 2px solid #E3B873;
+}
+.repairSteps__item-description {
+  font-family: FuturaBookC;
+  font-size: 15px;
+  color: #5A5A5A;
+  transition: 1s;
+  cursor: pointer;
 }
