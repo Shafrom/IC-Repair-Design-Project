@@ -802,6 +802,7 @@ a {
 .howWorking {
   padding-top: 220px;
   background: #131313;
+  height: 1515px;
 }
 .howWorking__wrapper {
   max-width: 1440px;
@@ -878,6 +879,11 @@ a {
   font-size: 15px;
   color: #FFFFFF;
 }
+.howWorking__text-bottom {
+  font-family: FuturaBookC;
+  font-size: 15px;
+  color: #FFFFFF;
+}
 .repairSteps__item-content {
   width: 85px;
 }
@@ -906,4 +912,129 @@ a {
   color: #5A5A5A;
   transition: 1s;
   cursor: pointer;
+}
+
+/* __________________________________________________________________ */
+
+.ourTeam {
+  position: relative;
+
+}
+.ourTeam__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 100%;
+  transform: translatey(-50%);
+}
+.ourTeam__content::after {
+  content: "";
+  width: 55px;
+  /* right: 800px;
+  left: 800px; */
+  height: 4px;
+  background: #E3B873;
+  position: absolute;
+  bottom: 15%;
+  transform: translateY(30%);
+}
+.ourTeam__title {
+  font-family: Yeseva One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-bottom: 13px;
+}
+.ourTeam__picContainer {
+  margin-bottom: 24px;
+}
+.ourTeam__description {
+  font-family: FuturaBookC;
+  font-size: 20px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-bottom: 75px;
+}
+.ourTeam__main {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 150px;
+}
+.ourTeam__item {
+  width: 18.88%;
+  margin-right: 104px;
+  position: relative;
+  flex-shrink: 0;
+}
+.ourTeam__item:nth-child(3) {
+  margin-right: 0;
+}
+.ourTeam__position-container {
+  position: absolute;
+  top: 45%; left: 20px; right: 20px;
+  transform: translateY(90%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #FFFFFF;
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.05);
+  padding-top: 22px;
+}
+.ourTeam__personName {
+  font-family: Yeseva One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  text-align: center;
+  color: #181818;
+  margin-bottom: 10px;
+}
+.ourTeam__personPosition {
+  font-family: FuturaBookC;
+  font-size: 18px;
+  text-align: center;
+  color: #959595;
+  margin-bottom: 24px;
+}
+.ourTeam__personExpierence {
+  font-family: Yeseva One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background: #E3B873;
+  padding: 13px 23px;
+  border: none;
+  width: 100%;
+}
+.ourTeam__conerPhotoPic {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  transform: translateX(-35px) translateY(-35px);
+  padding: 13px 16px;
+  width: 70px;
+  height: 70px;
+  background: #E3B873;
+  box-shadow: 0px 5px 20px rgba(227, 184, 115, 0.5);
+}
+.ourTeam__description-bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.ourTeam__description-bottomText {
+  width: 62%;
+  text-align: center;
+  font-family: FuturaBookC;
+  font-size: 20px;
+  color: #363636;
 }
