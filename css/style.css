@@ -93,6 +93,7 @@ a {
   font-family: FuturaBookC;
   font-size: 14px;
   color: #FFFFFF;
+  transition: .5s;
 }
 .menu_link:hover {
   color: #E3B873;
