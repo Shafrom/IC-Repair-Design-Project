@@ -1147,3 +1147,136 @@ a {
   text-transform: uppercase;
   color: #FFFFFF;
 }
+
+/* _____________________________________________________________ */
+
+.contactUs {
+  /* height: 953px; */
+  border: 1px solid transparent;
+  padding-bottom: 65px;
+  background: linear-gradient(180deg, rgba(24, 24, 24, 0.9) 3.47%, rgba(24, 24, 24, 0.72) 100%),
+              url(../img/address_backgrnd_pic.png) center center / cover;
+
+}
+.contactUs__content {
+  /* display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  /* width: 100%; */
+
+}
+.contactUs__form-content {
+  display: flex;
+  /* align-items: center; */
+  flex-direction: column;
+  margin: 0 auto;
+  margin-top: -222px;
+  margin-bottom: 52px;
+  padding: 34px 182px;
+  max-width: 883px;
+  background: #131313;
+  box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.05);
+}
+.contactUs_form {
+  color: #FFFFFF;
+}
+.contactUs__form {
+  display: flex;
+  width: 100%;
+  /* flex-wrap: wrap; */
+  flex-direction: column;
+  justify-content: center;
+  /* width: 100%; */
+  /* margin-bottom: 58px; */
+}
+.contactUs__form-topInputs {
+  display: flex;
+  justify-content: space-between;
+}
+.contactUs_title {
+  margin-bottom: 39px;
+  padding: 0 80px;
+  text-align: center;
+  font-family: Yeseva One;
+  font-style: normal;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.contactUs__form-label {
+  display: inline-flex;
+  flex-direction: column;
+  font-family: FuturaBookC;
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.5);
+  margin-bottom: 50px;
+}
+.last_form-label {
+  margin-bottom: 46px;
+}
+.contactUs__form-input {
+  border: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  background-color: transparent;
+  color: #FFFFFF;
+  font-size: 18px;
+}
+
+.contactUs__form-input::placeholder {
+  font-family: FuturaBookC;
+  font-size: 18px;
+  color: #FFFFFF;
+}
+.measurer_checkbox {
+  align-self: center;
+  margin-bottom: 30px;
+}
+.checkbox .contactUs__checkbox-label {
+  display: flex;
+  align-items: center;
+}
+.contactUs__checkbox-label {
+  margin-bottom: 25px;
+}
+.contactUs__button {
+  /* align-self: flex-end; */
+  align-self: center;
+  max-width: 200px;
+  font-family: FuturaDemiC;
+  font-size: 15px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background: #E3B873;
+  box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.15);
+  padding: 20px 70px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.contactUs__address {
+  /* margin: 0 auto; */
+  font-family: Yeseva One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #E3B873;
+  margin-bottom: 26px;
+}
+.contactUs__social {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.contactUs__social-pic {
+  cursor: pointer;
+}
+.contactUs__social-pic:first-child {
+  margin-right: 15px;
+}
+.contactUs__map-container {
+  margin: 0 auto;
+  max-width: 924px;
+}
